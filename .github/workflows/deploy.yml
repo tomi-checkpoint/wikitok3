@@ -35,7 +35,7 @@ jobs:
         run: npx expo export --platform web
 
       - name: Add CNAME
-        run: echo "wikitoklite.gotomarketpro.eu" > dist/CNAME
+        run: echo "wikitoklite2.gotomarketpro.eu" > dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
